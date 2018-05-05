@@ -1,0 +1,19 @@
+{
+  "name": "nick",
+  "version": "1.0.0",
+  "description": "A website for NIck",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dillonjason/nick.git"
+  },
+  "author": "Dillon Jason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dillonjason/nick/issues"
+  },
+  "homepage": "https://github.com/dillonjason/nick#readme"
+}
