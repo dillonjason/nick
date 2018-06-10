@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "apollo-boost": "^0.1.7",
+    "flexboxgrid-sass": "^8.0.5",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.9.2",
     "node-sass": "^4.9.0",
