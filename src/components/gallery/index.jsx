@@ -7,7 +7,6 @@ import ReactGallery from 'react-grid-gallery'
 import {GET_IMAGES} from './query'
 import styles from './styles.scss'
 
-import {Error} from './error'
 import {Placeholder} from './placeholder'
 
 export const Gallery = () => {
@@ -29,7 +28,6 @@ export const Gallery = () => {
         return (
           <Fragment>
             {loading && <Placeholder />}
-            {error && <Error />}
             {!isEmpty(images) && (
               <div className={styles.gallery}>
                 <ReactGallery
