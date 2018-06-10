@@ -20,6 +20,8 @@ export const Gallery = () => {
           images = map(data.allImageses, image => ({
             src: image.picture.url,
             thumbnail: image.picture.url,
+            thumbnailHeight: image.picture.height,
+            thumbnailWidth: image.picture.width,
             caption: image.description
           }))
         }
