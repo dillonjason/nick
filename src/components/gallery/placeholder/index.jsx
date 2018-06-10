@@ -1,3 +1,16 @@
 import React from 'react'
 
-export const Placeholder = () => <div className='placeholder'>Loading...</div>
+import {placeholder, picture_block} from './styles'
+
+export const Placeholder = () => (
+  <div className={placeholder}>
+    <div className={picture_block} />
+    <div className={picture_block} />
+    <div className={picture_block} />
+    <div className={picture_block} />
+    <div className={picture_block} />
+    <div className={picture_block} />
+    <div className={picture_block} />
+    <div className={picture_block} />
+  </div>
+)

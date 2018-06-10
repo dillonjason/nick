@@ -1,0 +1,17 @@
+@import "../../../styles/colors.scss";
+
+.placeholder {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.picture_block {
+  height: 250px;
+  width: calc(25% - 0.5rem);
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  background: $light-text-disabled;
+}
