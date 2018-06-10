@@ -32,6 +32,7 @@ export const Gallery = () => {
               <div className={styles.gallery}>
                 <ReactGallery
                   images={images}
+                  enableImageSelection={false}
                   showLightboxThumbnails
                 />
               </div>
