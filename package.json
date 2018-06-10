@@ -4,6 +4,7 @@
   "description": "A website for NIck",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm run build",
     "start": "node server/index.js",
     "dev": "parcel index.html",
     "build": "parcel build src/index.js",
