@@ -1,0 +1,34 @@
+@import "../../../styles/colors.scss";
+
+@mixin placeholder-bar {
+  content: ' ';
+  border-radius: 2rem;
+  background-color: $light-text-disabled;
+  margin-bottom: 1rem;
+}
+
+.header_bar {
+  @include placeholder-bar();
+  height: 2rem;
+  width: 75%;
+}
+
+.content_block {
+  width: 60%;
+}
+
+.content_large {
+  @include placeholder-bar();
+  height: 1rem;
+  width: 90%;
+}
+
+.content_small {
+  @include placeholder-bar();
+  height: 1rem;
+  width: 45%;
+}
+
+.picture_block {
+  background: $light-text-disabled
+}
