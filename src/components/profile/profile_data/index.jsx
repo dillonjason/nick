@@ -8,7 +8,7 @@ export const ProfileData = ({displayName, about, profilePicture}) => (
     <div className={picture} style={{background:`url(${profilePicture.url}) center`}} />
     <div className={content}>
       <h1>{displayName}</h1>
-      <p>{about}</p>
+      {about && <p>{about}</p>}
     </div>
   </div>
 )

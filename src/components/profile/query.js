@@ -9,5 +9,8 @@ export const GET_PROFILE = gql`
       },
       about
     }
+    allAccomplishmentses {
+      title
+    }
   }
 `

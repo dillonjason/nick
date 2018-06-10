@@ -16,7 +16,7 @@ export const Profile = () => {
           <Fragment>
             {loading && <Placeholder />}
             {error && <Error />}
-            {!loading && data && <ProfileData {...data.allAboutNicks[0]} />}
+            {!loading && data && <ProfileData {...data.allAboutNicks[0]} accomplishments={data.allAccomplishmentses} />}
           </Fragment>
         )
       }}
