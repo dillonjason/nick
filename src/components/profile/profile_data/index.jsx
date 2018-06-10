@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import ReactMarkdown from 'react-markdown'
 
 import {profile_data, picture, content} from './styles.scss'
 
@@ -8,7 +9,7 @@ export const ProfileData = ({displayName, about, profilePicture}) => (
     <div className={picture} style={{background:`url(${profilePicture.url}) center`}} />
     <div className={content}>
       <h1>{displayName}</h1>
-      {about && <p>{about}</p>}
+      {about && <ReactMarkdown source={about} />}
     </div>
   </div>
 )

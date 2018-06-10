@@ -43,6 +43,7 @@
     "react": "^16.4.0",
     "react-apollo": "^2.1.4",
     "react-dom": "^16.4.0",
-    "react-grid-gallery": "^0.4.11"
+    "react-grid-gallery": "^0.4.11",
+    "react-markdown": "^3.3.2"
   }
 }
