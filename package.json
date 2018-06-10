@@ -34,10 +34,12 @@
     "flexboxgrid-sass": "^8.0.5",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.9.2",
+    "lodash": "^4.17.10",
     "node-sass": "^4.9.0",
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
     "react-apollo": "^2.1.4",
-    "react-dom": "^16.4.0"
+    "react-dom": "^16.4.0",
+    "react-grid-gallery": "^0.4.11"
   }
 }

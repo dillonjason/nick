@@ -1,0 +1,33 @@
+@import "../../../styles/colors.scss";
+@import "../../../styles/shadows.scss";
+@import "../../../styles/breaks.scss";
+
+.accomplishments {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .accomplishment {
+    background-color: $primary-light;
+    box-shadow: $shadow-level-2;
+    border-radius: 3rem;
+    margin-top: 1rem;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  
+
+  @media screen and (min-width: $sm) {
+    // Desktop
+    flex-direction: row;
+
+    .accomplishment {
+      max-width: 33%;
+    }
+  }
+}
