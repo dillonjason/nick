@@ -11,6 +11,7 @@ export const GET_PROFILE = gql`
     }
     allAccomplishmentses {
       title
+      description
     }
   }
 `
