@@ -4,6 +4,7 @@
   "description": "A website for NIck",
   "main": "index.js",
   "scripts": {
+    "start": "node server/index.js",
     "dev": "parcel index.html",
     "build": "parcel build src/index.js",
     "test": "test"
@@ -31,6 +32,7 @@
   },
   "dependencies": {
     "apollo-boost": "^0.1.7",
+    "express": "^4.16.3",
     "flexboxgrid-sass": "^8.0.5",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.9.2",
