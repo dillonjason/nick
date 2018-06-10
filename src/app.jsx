@@ -1,9 +1,9 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 
 import {Profile} from './components/profile'
 
 export const App = () => (
-  <div className='app'>
+  <Fragment>
     <Profile />
-  </div>
+  </Fragment>
 )
