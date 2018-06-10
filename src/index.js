@@ -1,9 +1,13 @@
 import React from 'react'
 import ReactDom from 'react-dom'
+import {ApolloProvider} from 'react-apollo'
 
+import {client} from './apollo_client'
 import {App} from './app'
 
 ReactDom.render(
-  <App />,
+  <ApolloProvider client={client}>
+    <App />
+  </ApolloProvider>,
   document.getElementById('app')
 )
