@@ -13,5 +13,11 @@ export const GET_PROFILE = gql`
       title
       description
     }
+    allLinkses {
+      email
+      facebook
+      instagram
+      resume
+    }
   }
 `

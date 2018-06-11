@@ -22,6 +22,29 @@
 
   .content {
     padding: 2rem;
+
+    .links {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      a, a:visited {
+        color: $secondary-light;
+        text-decoration: none;
+        padding-right: 2rem;
+        width: calc(50% - 2rem);
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      @media screen and (min-width: $sm) {
+        flex-wrap: nowrap;
+
+        a {
+          width: auto;
+        }
+      }
+    }
   }
 
   @media screen and (min-width: $sm) {

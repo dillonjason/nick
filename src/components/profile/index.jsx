@@ -19,7 +19,7 @@ export const Profile = () => {
             {error && <Error />}
             {!isEmpty(data) && (
               <Fragment>
-                <ProfileData {...data.allAboutNicks[0]} />
+                <ProfileData {...data.allAboutNicks[0]} {...data.allLinkses[0]} />
                 <Accomplishments accomplishments={data.allAccomplishmentses} />
               </Fragment>
             )}
