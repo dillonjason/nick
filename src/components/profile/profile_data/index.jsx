@@ -12,7 +12,7 @@ export const ProfileData = ({displayName, about, profilePicture, resume, faceboo
       <div className={links}>
         <a href={facebook}>Facebook</a>
         <a href={instagram}>Instagram</a>
-        <a href={email}>Email</a>
+        <a href={`mailto:${email}`}>Email</a>
         <a href={resume}>Resume</a>
       </div>
       {about && <ReactMarkdown source={about} />}
